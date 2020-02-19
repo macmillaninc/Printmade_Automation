@@ -36,7 +36,6 @@ else ( START /b "" cmd /c DEL %0 /f
 goto :EOF )
 
 echo %ERRORLEVEL%
-
 START /b "" cmd /c DEL %0 /f
 
 goto :EOF
